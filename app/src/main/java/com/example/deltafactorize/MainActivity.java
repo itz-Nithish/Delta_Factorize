@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         gamescore.setText("Score: " + score);
         appback = (ConstraintLayout)findViewById(R.id.appbackground);
 
-
+        gamescore.setTextColor(Color.rgb(255,255,0));
+        nithish.setTextColor(Color.rgb(255,255,0));
         option1.setVisibility(View.GONE);
         option2.setVisibility(View.GONE);
         option3.setVisibility(View.GONE);
